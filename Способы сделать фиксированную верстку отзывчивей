@@ -1,0 +1,11 @@
+/1 способ:/
+В head прописать <meta name="viewport" content="width"> (где width - нужный размер контейнера для контента)
+body {
+  min-width: width;
+}
+
+.wrapper {
+  width: width;
+  margin: 0 auto;
+  padding: 0 15px;
+}
